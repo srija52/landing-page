@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./task_1.css">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+   <header>
+    <section class="nav">
+        <div class="logo">
+            <a href="#"><i class="fas fa-utensils"></i>food</a>
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+          </label>
+        <ul class="menu">
+             <li><a href="#home">Home</a></li>
+            <li><a href="#speciality">About</a></li>
+            <li> <a href="#popular">Popular</a></li>
+            <li> <a href="#review">Contact</a></li>
+            <li> <a href="#order" class="order">Menu</a></li>
+        </ul>
+    </section>
+    </header>
+    <section class="home" id="home ">
+        <div class="content">
+          <h3 class="mainfont">
+            Hung<span class="brownColor">ry</span>? Try Our
+          </h3>
+          <h3>
+            Burgers M<span class="brownColor">ad</span>e with Half Pound
+            <span class="brownColor">Patties</span>
+          </h3>
+          <p>
+            A burger is a patty of ground beef grilled and placed between two halves of a bun. Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor. Burgers are considered an American food but are popular around the world
+          </p>
+          <a href="# " class="btn">ORDER NOW</a>
+        </div>
+        <div class="image">
+          <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2VyJTIwcG5nfGVufDB8fDB8fHww&w=1000&q=80" alt=" " />
+        </div>
+      </section>
+</body>
+
+</html>
